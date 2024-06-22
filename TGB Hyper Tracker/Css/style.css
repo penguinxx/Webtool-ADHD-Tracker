@@ -1,0 +1,7 @@
+.background-with-opacity {
+    background-image: url('../Assets/Images/background images/backgroundImage.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5); 
+}

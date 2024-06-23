@@ -1,7 +1,16 @@
-.background-with-opacity {
-    background-image: url('../Assets/Images/background images/backgroundImage.png');
+.Background-Image {
+    position: relative;
+    z-index: -1; 
+    top: 0;
+    left: 0;
+    content: '';
+    position: fixed;  /*To keep the image in place while scrolling*/
+    width: 100%;
+    height: 100%;
+    background-image: url('../Assets/Images/background images/16_bit_memories_by_intercepto_d2znzre.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-attachment: fixed; 
+
 }
+
